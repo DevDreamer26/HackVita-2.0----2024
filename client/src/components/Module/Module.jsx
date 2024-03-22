@@ -20,7 +20,8 @@ const Module = () => {
               <img src={module.image} alt={`${module.name} Image`} />
               <h2>{module.name}</h2>
               <p>{module.description}</p>
-              <button>Read more...</button>
+              <a href={module.link}><button>Read more...</button></a>
+              
             </div>
           ))}
         </div>

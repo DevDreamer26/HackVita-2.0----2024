@@ -16,6 +16,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        {/* <ChatWindow/> */}
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />

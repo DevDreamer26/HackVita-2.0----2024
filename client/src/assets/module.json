@@ -4,7 +4,7 @@
     "description":
       "Understanding the basics of personal finance lays the foundation for ...",
     "image": "/images/F1.jpg",
-    "link":"https://google.com"
+    "link":"https://www.investopedia.com/best-resources-for-improving-financial-literacy-5091689"
   },
   {
     "id": "2",
@@ -12,7 +12,7 @@
     "description":
       "Exploring effective tax strategies is crucial for optimizing financial ....",
     "image": "/images/F2.jpg",
-    "link":"https://google.com"
+    "link":"https://www.wealthability.com/blog/tax-articles/top-10-tax-planning-strategies/"
   },
   {
     "id": "3",
@@ -20,7 +20,7 @@
     "description":
       "Small businesses are the backbone of our economy, representing innovation, ....",
     "image": "/images/F3.jpg",
-    "link":"https://google.com"
+    "link":"https://en.wikipedia.org/wiki/Small_business"
   },
   {
     "id": "4",
@@ -28,7 +28,7 @@
     "description":
       "Agricultural finances form the lifeblood of rural economies, powering the cultivation ....",
     "image": "/images/F4.jpg",
-    "link":"https://google.com"
+    "link":"https://elibrary.worldbank.org/doi/10.1596/978-0-8213-8927-0_ch10#:~:text=Defines%20agricultural%20finance%20as%20a,processing%2C%20and%20marketing%20of%20goods."
   }
 
 ]
