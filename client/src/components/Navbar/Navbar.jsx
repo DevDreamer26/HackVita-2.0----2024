@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross1 } from 'react-icons/rx';
 import './Navbar.scss';
@@ -15,7 +15,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h1>Logo</h1>
+         <h1>Finance</h1>
+          
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <RxCross1 /> : <GiHamburgerMenu />}
@@ -27,8 +28,8 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" activeClassName="active" onClick={toggleMenu}>
-              About
+            <NavLink to="/module" activeClassName="active" onClick={toggleMenu}>
+              Module
             </NavLink>
           </li>
           <li className="nav-item">

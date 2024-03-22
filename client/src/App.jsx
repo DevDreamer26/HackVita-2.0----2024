@@ -16,10 +16,6 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="content-wrapper">
-          <div className="sticky-button">
-            <Link to="/chatbot"><button>Chat with Us</button></Link>
-          </div>
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
@@ -29,7 +25,7 @@ function App() {
           </Routes>
           <Home />
           <Footer />
-        </div>
+       
       </BrowserRouter>
     </>
   )

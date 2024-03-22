@@ -1,0 +1,34 @@
+[{
+    "id": "1",
+    "name": "Basics of personal finance",
+    "description":
+      "Understanding the basics of personal finance lays the foundation for ...",
+    "image": "/images/F1.jpg",
+    "link":"https://google.com"
+  },
+  {
+    "id": "2",
+    "name": "Tax Strategies",
+    "description":
+      "Exploring effective tax strategies is crucial for optimizing financial ....",
+    "image": "/images/F2.jpg",
+    "link":"https://google.com"
+  },
+  {
+    "id": "3",
+    "name": "Small Businesses",
+    "description":
+      "Small businesses are the backbone of our economy, representing innovation, ....",
+    "image": "/images/F3.jpg",
+    "link":"https://google.com"
+  },
+  {
+    "id": "4",
+    "name": "Agricultural Finances",
+    "description":
+      "Agricultural finances form the lifeblood of rural economies, powering the cultivation ....",
+    "image": "/images/F4.jpg",
+    "link":"https://google.com"
+  }
+
+]
