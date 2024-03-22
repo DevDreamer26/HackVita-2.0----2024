@@ -1,15 +1,20 @@
 import { useState } from 'react'
+import {BrowserRouter} from 'react-router-dom'
 import Home from './components/Home/Home'
+import Navbar from './components/Navbar/Navbar'
 import './App.css'
-import Module from './components/Module/Module'
+import Footer from './components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+    <BrowserRouter>
+    <Navbar/>
     <Home />  
-    <Module/>
+   <Footer/>
+   </BrowserRouter>
     </>
   )
 }
