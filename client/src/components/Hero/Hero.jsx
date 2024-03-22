@@ -8,7 +8,7 @@ const Hero = () => {
     <div>
       <div className="container">
         <div className="info">
-          <h1>Explore the financial literacy</h1>
+          <h1>Pesa he to Sab He !!</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
             odit nihil ullam nesciunt quidem iste, Repellendus odit nihil
