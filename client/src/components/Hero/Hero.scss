@@ -1,0 +1,62 @@
+.content {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 10px; 
+      height: 80vh;
+  
+      @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        gap: 20px; 
+      }
+  
+      .info {
+        max-width: 600px; 
+        text-align: center;
+  
+        h1 {
+          font-size: 32px;
+          margin-bottom: 15px;
+        }
+  
+        p {
+          margin: 0;
+          line-height: 1.6;
+          font-size: 16px;
+          color: #333; 
+        }
+  
+        button {
+          margin-top: 30px;
+          padding: 12px 30px;
+          border: 0;
+          border-radius: 20px;
+          cursor: pointer;
+          color: #FFF;
+          background-color: #6c63ff;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #544bd6; // Example hover color
+          }
+        }
+  
+        // Responsive styles
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+      }
+  
+      .image {
+        max-width: 400px; // Adjust the max-width as needed
+  
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    }
+  }
+  
