@@ -1,0 +1,139 @@
+/* Courses.css */
+
+.courses-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .course-about {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .course-about h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  .course-about p{
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  .course-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .courses-container h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin: 30px 0;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course:hover {
+    transform: translateY(-5px);
+  }
+  
+  .course img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .course h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  /* Activity  section */
+  
+  /* Add this to Courses.css */
+  
+  .activity {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .activity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activity li {
+    margin-bottom: 20px;
+  }
+  
+  .activity-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .activity-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .activity-item div {
+    flex-grow: 1;
+  }
+  
+  .activity-item h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .activity-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .courses-list {
+      flex-direction: column;
+    }
+  
+    .course {
+      width: 100%;
+    }
+  }
+  
