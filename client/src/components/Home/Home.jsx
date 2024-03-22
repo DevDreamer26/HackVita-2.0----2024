@@ -7,7 +7,7 @@ const Home = () => {
     <>
 
     
-    <Module/>
+   
     
     </>
   )

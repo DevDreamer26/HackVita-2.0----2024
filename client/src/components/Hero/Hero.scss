@@ -1,61 +1,104 @@
-.content {
-    .container {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 5rem;
+    gap: 10px; 
+  
+    @media (max-width: 767px) {
+      flex-direction: column;
+      gap: 20px; 
+    }
+  
+    .info {
       display: flex;
-      align-items: center;
-      justify-content: space-around;
+      flex-direction: column;    
+      max-width: 100%; 
+      text-align: center;
       gap: 10px; 
-      height: 80vh;
   
-      @media (max-width: 767px) {
-        flex-direction: column-reverse;
-        gap: 20px; 
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
       }
   
-      .info {
-        max-width: 600px; 
-        text-align: center;
+      p {
+        margin: 0;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        color: #333; 
+      }
   
-        h1 {
-          font-size: 32px;
-          margin-bottom: 15px;
+      button {
+        margin-top: 30px;
+        padding: 12px 30px;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        color: #FFF;
+        background-color: #6c63ff;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #544bd6; 
         }
+      }
   
-        p {
-          margin: 0;
-          line-height: 1.6;
-          font-size: 16px;
-          color: #333; 
-        }
+      .hero-btn {
+        display: flex;
+        gap: 3rem;
   
-        button {
-          margin-top: 30px;
-          padding: 12px 30px;
-          border: 0;
-          border-radius: 20px;
-          cursor: pointer;
-          color: #FFF;
-          background-color: #6c63ff;
-          transition: background-color 0.3s ease;
-  
-          &:hover {
-            background-color: #544bd6; // Example hover color
-          }
-        }
-  
-        // Responsive styles
         @media (max-width: 767px) {
-          text-align: center;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
         }
       }
+    }
   
-      .image {
-        max-width: 400px; // Adjust the max-width as needed
+    .image {
+      max-width: 100%; 
   
-        img {
-          max-width: 100%;
-          height: auto;
-          display: block;
-        }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+}
+.modules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem; /* Add margin to separate image from text */
+    }
+  
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  
+    button {
+      padding: 12px 30px;
+      border: 0;
+      border-radius: 20px;
+      cursor: pointer;
+      color: #fff;
+      background-color: #544bd6;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #4239ae;
       }
     }
   }
