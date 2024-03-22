@@ -17,7 +17,7 @@ const InputBox = ({ sendMessage, loading }) => {
         disabled={loading}
         type="text"
         className="form-control"
-        placeholder="Type a message..."
+        placeholder="Tell me about yoyr financial  details .. "
         value={loading ? "Loading..." : input}
         onChange={(e) => setInput(e.target.value)}
         onKeyPress={handleKeyPress}

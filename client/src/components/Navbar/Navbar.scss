@@ -1,9 +1,9 @@
 *{
   margin: 0;
 }.navbar {
-  background-color: #333;
+  background-color: #5779ff;
   color: #fff;
-  padding: 1rem;
+  padding: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
 
           &:hover,
           &.active {
-            background-color: #555;
+            background-color: #0b006b;
           }
         }
       }

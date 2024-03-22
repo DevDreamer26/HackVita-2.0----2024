@@ -22,6 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/chatbot" element={<ChatWindow />} />
             <Route path="/module" element={<Module />} />
+            <Route path="/services" element={<Module />} />
           </Routes>
           
           <Footer />

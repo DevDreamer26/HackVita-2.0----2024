@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #4394ff;
     color: #fff;
     padding: 1rem;
     display: flex;
@@ -48,7 +48,7 @@
 
 .navbar .navbar-container .nav-menu .nav-item a:hover,
 .navbar .navbar-container .nav-menu .nav-item a.active {
-    background-color: #555
+    background-color: #2e85ff
 }
 
 @media screen and (max-width: 768px) {
@@ -63,7 +63,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #333
+        background-color: #3485ff
     }
 
     .navbar .navbar-container .nav-menu .nav-item {

@@ -34,7 +34,7 @@ const Hero = () => {
     <>
       <div className="container">
         <div className="info">
-          <h1>Explore the financial literacy</h1>
+          <h1>Let's Talk Money !</h1>
           <p>Financial freedom is achieved through disciplined saving and smart investing.</p>
           <div className="hero-btn">
             <Link to="/chatbot">
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="image">
-          <img src="images/hero-img.png" alt="Hero Image" />
+          <img src="images/finance.jpg" alt="Hero Image" />
         </div>
       </div>
 
@@ -85,79 +85,73 @@ const Hero = () => {
       {/* services */}
       <div className="section-3"> 
         <h1>Services</h1>
-        <div className="services">
-         
+        <div className="services">  
+          <div className="services-left"> 
             <img src="images/PNG-Tracker.png" alt="" />
-            <h2>Track Your Expenses</h2>
-            <p>
-              "Track Expense" is like a digital notebook where you can write down and organize all the money you spend,
+          </div>     
+          <div className="services-right">
+            <h2>Track Your Expenses</h2> 
+            <p>"Track Expense" is like a digital notebook where you can write down and organize all the money you spend,
               helping you understand where your money goes and plan your finances better.
             </p>
-        
-        </div>
-        <a href="https://expn-tracker.netlify.app">
+            <a href="https://expn-tracker.netlify.app">
           <button>Track Expense</button>
         </a>
-        </div>
+          </div>             
+        </div>        
+        </div>v
       
+      
+      <Module/>
       <div className="FAQ">
         <h2>Frequently Asked Questions</h2>
         <div className="accordion">
           <div className="accordion-item">
             <button id="accordion-button-1" aria-expanded="false">
-              <span className="accordion-title">Why is the moon sometimes out during the day?</span>
+              <span className="accordion-title">What is Finance Forge ?</span>
               <span className="icon" aria-hidden="true"></span>
             </button>
             <div className="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
-                potenti.
+              Finance Forge is a comprehensive online platform dedicated to providing financial education, resources, and expert advice to individuals and businesses seeking to improve their financial well-being.
               </p>
             </div>
           </div>
           <div className="accordion-item">
             <button id="accordion-button-2" aria-expanded="false">
-              <span className="accordion-title">Why is the sky blue?</span>
+              <span className="accordion-title">Who can benefit from Finance Forge?</span>
               <span className="icon" aria-hidden="true"></span>
             </button>
             <div className="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
-                potenti.
+              Finance Forge is designed to benefit anyone interested in enhancing their financial literacy and achieving their financial goals. Whether you're a beginner looking to learn the basics of personal finance or a seasoned investor seeking advanced strategies, Finance Forge has something for everyone.
               </p>
             </div>
           </div>
           <div className="accordion-item">
             <button id="accordion-button-3" aria-expanded="false">
-              <span className="accordion-title">Will we ever discover aliens?</span>
+              <span className="accordion-title">What types of resources are available on Finance Forge?</span>
               <span className="icon" aria-hidden="true"></span>
             </button>
             <div className="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
-                potenti.
+              Finance Forge offers a wide range of resources, including educational articles, guides, tutorials, tools, calculators, and expert insights. Topics covered include budgeting, saving, investing, retirement planning, debt management, and more.
               </p>
             </div>
           </div>
           <div className="accordion-item">
             <button id="accordion-button-4" aria-expanded="false">
-              <span className="accordion-title">How much does the Earth weigh?</span>
+              <span className="accordion-title">How frequently is the content on Finance Forge updated ?</span>
               <span className="icon" aria-hidden="true"></span>
             </button>
             <div className="accordion-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse
-                potenti.
+              We strive to keep our content updated regularly to reflect the latest trends, news, and insights in the world of finance. New articles, guides, and tools are added frequently to ensure our users have access to the most relevant and up-to-date information.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <Module/>
       <Contact/>
     </>
   );
