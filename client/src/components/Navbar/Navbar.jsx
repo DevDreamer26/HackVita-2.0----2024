@@ -32,11 +32,6 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/services" activeClassName="active" onClick={toggleMenu}>
-              Services
-            </NavLink>
-          </li>
-          <li className="nav-item">
             <NavLink to="/contact" activeClassName="active" onClick={toggleMenu}>
               Contact
             </NavLink>
