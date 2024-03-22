@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-         <h1>Finance</h1>
+         <h1>Finance Forge</h1>
           
         </div>
         <div className="menu-icon" onClick={toggleMenu}>

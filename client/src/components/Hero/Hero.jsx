@@ -2,13 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom"; // Uncomment this line
 
 import "./Hero.scss";
+import Module from "../Module/Module";
+import Contact from "../Contact/Contact";
 
 const Hero = () => {
   return (
-    <div>
+    <>
       <div className="container">
         <div className="info">
-          <h1>Lets Talk Money !!</h1>
+          <h1>Let's Talk Money !!</h1>
           <p>
           Financial freedom is achieved through disciplined saving and smart investing.
           </p>
@@ -42,7 +44,9 @@ const Hero = () => {
           <button>Learn More</button>
         </Link>
       </div>
-    </div>
+      <Module/>
+      <Contact/>
+    </>
   );
 };
 

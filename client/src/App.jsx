@@ -23,7 +23,7 @@ function App() {
             <Route path="/chatbot" element={<ChatWindow />} />
             <Route path="/module" element={<Module />} />
           </Routes>
-          <Home />
+          
           <Footer />
        
       </BrowserRouter>
