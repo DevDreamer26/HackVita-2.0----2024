@@ -15,6 +15,7 @@ import Logout from './components/Logout'
 import Register from './components/Register/Register'
 import List from './components/List/List'
 import Error from './components/Error/Error'
+import Service from './components/Service/Service'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/chatbot" element={<ChatWindow />} />
             <Route path="/module" element={<Module />} />
-            <Route path="/services" element={<Module />} />
+            <Route path="/service" element={<Service />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<Logout />} />
             <Route path="/register" element={<Register />} />

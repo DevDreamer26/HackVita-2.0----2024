@@ -5,7 +5,7 @@ import MDEditor from "@uiw/react-md-editor";
 import InputBox from "./InputBox";
 
 import "../assets/ChatWindow.css"; 
-import logo from "/images/smily.png";
+import logo from "/images/robo_small.gif";
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="header">
       <h1 id="chat-header">
-        <img src={logo} alt="gemini" width={120} />
+        <img src={logo} alt="gemini" width={200} />
         <b style={{ marginLeft: 5 }}>Finance Forge Chatbot</b>
       </h1>
      
