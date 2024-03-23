@@ -102,7 +102,7 @@ const Hero = () => {
         </div>v
       
       
-      <Module/>
+      {/* <Module/> */}
       <div className="FAQ">
         <h2>Frequently Asked Questions</h2>
         <div className="accordion">
