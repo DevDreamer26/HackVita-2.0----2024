@@ -94,9 +94,9 @@ const Hero = () => {
             <p>"Track Expense" is like a digital notebook where you can write down and organize all the money you spend,
               helping you understand where your money goes and plan your finances better.
             </p>
-            <a href="https://expn-tracker.netlify.app">
+            <Link to="/login">
           <button>Track Expense</button>
-        </a>
+        </Link>
           </div>             
         </div>        
         </div>v

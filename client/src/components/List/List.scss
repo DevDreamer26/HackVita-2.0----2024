@@ -1,0 +1,53 @@
+.expense-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+  
+      tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+  
+      tbody tr:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      table {
+        th, td {
+          padding: 8px;
+        }
+      }
+    }
+  
+    @media screen and (max-width: 576px) {
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+  
