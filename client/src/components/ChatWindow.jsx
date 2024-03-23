@@ -18,7 +18,7 @@ const Header = () => {
         <img src={logo} alt="gemini" width={120} />
         <b style={{ marginLeft: 5 }}>Finance Forge Chatbot</b>
       </h1>
-      {/* <small>Talk with the most capable AI model</small> */}
+     
     </div>
   );
 };
@@ -38,7 +38,6 @@ const ChatWindow = () => {
       return;
     }
 
-    // Update messages with the user message
     setMessages((prevMessages) => [
       ...prevMessages,
       { text: inputText, sender: "user", timestamp: new Date() },
