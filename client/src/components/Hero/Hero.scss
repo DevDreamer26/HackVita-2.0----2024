@@ -149,28 +149,61 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .modules .modules-card .card-container .card {
+    width: 90%; 
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .modules .modules-card .card-container {
+    flex-direction: column; 
+  }
+
+  .modules .modules-card .card-container .card {
+    width: 100%; 
+  }
+}
 
 .section-3 {
   h1 {
     text-align: center;
   }
 }
-  .services {
-    display: flex;
-    flex-direction: column;
+.services {
+  display: flex;
+  flex-direction: column;
 
+  img {
+    width: 25%;
+    max-width: 100%; 
+    margin-bottom: 1rem; 
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+
+  @media (max-width: 767px) {
     img {
-      width: 25%;
+      width: 50%; 
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.5rem; 
     }
 
     p {
-      font-size: 1.2rem;
-    }
+      font-size: 1rem; 
   }
+}
+}
 
 .FAQ {
   margin: 0 auto;
@@ -277,6 +310,8 @@
   }
 }
 
+
+   
 .services {
   width: 80%;
   display: flex;
@@ -323,96 +358,5 @@
   }
 
   }
-}.services {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin-left: 10rem;
-  align-items: center;   
-
-  .services-left {
-    width: 50%;
-    display: flex; 
-    align-items: center; 
-
-    img {
-      width:80%;
-      height: auto;
-    }
-  }
-
-  .services-right {
-    width: 50%;
-    line-height: 1.6;
-    margin-bottom: 3.5rem;
-    h2{
-      font-size: 2.8rem;
-    } 
-    p{
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-
-    }
-   button {
-    margin-top: 30px;
-    padding: 12px 30px;
-    border: 0;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    background-color: #6c63ff;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: #544bd6;
-    }
-  }
-
-  }
-}.services {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin-left: 10rem;
-  align-items: center;   
-
-  .services-left {
-    width: 50%;
-    display: flex; 
-    align-items: center; 
-
-    img {
-      width:80%;
-      height: auto;
-    }
-  }
-
-  .services-right {
-    width: 50%;
-    line-height: 1.6;
-    margin-bottom: 3.5rem;
-    h2{
-      font-size: 2.8rem;
-    } 
-    p{
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-
-    }
-   button {
-    margin-top: 30px;
-    padding: 12px 30px;
-    border: 0;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    background-color: #6c63ff;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: #544bd6;
-    }
-  }
-
-  }
 }
+
